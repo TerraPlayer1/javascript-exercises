@@ -1,6 +1,6 @@
 const sumAll = function(v1,v2) {
     let sum = 0
-    if ((v1 < -1 || v2 < -1) || (typeof v1 != "number" || typeof v2 != "number" )){
+    if ((v1 < 0 || v2 < 0) || (typeof v1 != "number" || typeof v2 != "number" )){
         return "ERROR"
     }else if (v1 < v2){
         for (let i = v1; i <= v2; i++){
