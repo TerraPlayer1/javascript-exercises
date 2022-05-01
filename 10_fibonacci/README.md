@@ -8,3 +8,19 @@ Create a function that returns a specific member of the Fibonacci sequence:
 fibonacci(4) // returns the 4th member of the series: 3  (1, 1, 2, 3)
 fibonacci(6) // returns 8
 ```
+<!-- PSEUDO CODE -->
+take a=1, b=1
+add 1 to array
+for (length)
+c = a + b
+
+if (i)
+  a += c
+  i = 0
+  else
+  b += c
+  i = 1
+b += c
+
+add c to array
+
